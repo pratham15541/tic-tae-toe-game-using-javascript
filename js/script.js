@@ -1,7 +1,7 @@
 console.log("welcome to tic-tae-toe");
-let bgmusic = new Audio("bgmusic.mp3");
-let audioturn = new Audio("ting (mp3cut.net).mp3");
-let gameover = new Audio("won.wav");
+let bgmusic = new Audio("static/mp3/bgmusic.mp3");
+let audioturn = new Audio("static/mp3/ting (mp3cut.net).mp3");
+let gameover = new Audio("static/mp3/won.wav");
 let turn = "X";
 let isgameover = false;
 
