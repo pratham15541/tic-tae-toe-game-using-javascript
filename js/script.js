@@ -24,9 +24,8 @@ const checkwin = () => {
     [2, 4, 6, 4, 14, 135],
   ];
   wins.forEach((e) => {
-    {
-      res
-      if(resetgame==false)
+    
+     
     if (
       boxtxts[e[0]].innerText === boxtxts[e[1]].innerText &&
       boxtxts[e[2]].innerText === boxtxts[e[1]].innerText &&
@@ -43,7 +42,7 @@ const checkwin = () => {
       ).style.transform = `translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`;
       document.querySelector(".line").style.width = `23vw`;
     }
-    }
+  
   });
 };
 //Game logic
