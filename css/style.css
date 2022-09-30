@@ -39,6 +39,7 @@ li:hover{
     grid-template-columns: repeat(3,10vw);
     grid-template-rows: repeat(3,10vw);
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 .box{
     border: 2px solid black;
@@ -87,9 +88,31 @@ li:hover{
     
     
 }
+.line{
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 0vw;
+    transition: width 1s ease-in-out;
+    
+}
 
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
     .gamecontainer{
         flex-wrap: wrap;;
+    }
+    .gameinfo{
+        font-size: 1.5rem;
+    }
+    .container{
+        display: grid;
+        grid-template-rows: repeat(3,20vw);
+        grid-template-columns: repeat(3,20vw);
+    }
+    .line{
+        position: absolute;
+        background-color: black;
+        height: 3px;
+        width: 0vw;
     }
 }
